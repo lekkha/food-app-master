@@ -30,7 +30,7 @@ const FoodItemCart = (item) => {
                 <div className=" flex-grow">
                     <h4 className="truncate">{item.card.info.name}</h4>
                     <p className="item-cost text-lime-900"> - ₹{item.card.info.price ? item.card.info.price / 100 : item.card.info.defaultPrice / 100}</p>
-                    <h4 className="font-bold py-1"> {item.card.info.description} </h4>
+                    <h4 className="py-1"> {item.card.info.description} </h4>
                 </div>
                 <div className="self-center flex-shrink">
                     <div className="addBtn flex w-full md:w-36 bg-green-600 text-white justify-around items-center my-2 rounded-lg">
