@@ -8,3 +8,4 @@ export const RESTAURANTS_API = "https://foodfire.onrender.com/api/restaurants?la
 export const PROXY_CORS = "https://thingproxy.freeboard.io/fetch/";
 // export const generateProxyUrl = (URL) => PROXY_CORS + encodeURIComponent(URL);
 export const generateProxyUrl = (URL) => PROXY_CORS + URL;
+
