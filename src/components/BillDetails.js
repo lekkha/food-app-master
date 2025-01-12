@@ -4,7 +4,7 @@ const BillDetails = () => {
     const cartItems = useSelector(store => store.cart.items); //useSelector: subscribe to the store
     console.log(cartItems, 'cartItems')
 
-    let getPrice = cartItems.map((element) => (element?.card.info.price > 0) ? (element?.card.info.price / 100) * element?.count : " ");
+    let getPrice = cartItems.map((element) => (element?.card.info.defaultPrice > 0) ? (element?.card.info.defaultPrice / 100) * element?.count : " ");
 
     console.log(getPrice, 'getPrice');
 
